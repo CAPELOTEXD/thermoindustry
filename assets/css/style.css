@@ -1,0 +1,123 @@
+nav img {
+  width: 200px;
+  height: 50px;
+  flex: initial;
+  border: none;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 10px;
+  background: green;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: green;
+  background: white;
+}
+
+.btn-face {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 100px;
+  right: 10px;
+  background: blue;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+
+.btn-face:hover {
+  text-decoration: none;
+  color: blue;
+  background: white;
+}
+
+.btn-imsta {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 170px;
+  right: 10px;
+  background: linear-gradient(to bottom, rgb(205, 21, 171), rgb(203, 183, 27), rgb(203, 45, 65));
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+
+.btn-imsta:hover {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(to bottom, rgb(205, 125, 21), rgb(185, 119, 22), rgb(187, 24, 146));
+}
+
+.nosotros img {
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.formulary .formulario {
+  border: solid;
+  border-color: rgb(16, 102, 152);
+  border-radius: 35px;
+}
+.formulary input {
+  border: solid;
+  border-radius: 30px;
+  width: 15rem;
+}
+.formulary textarea {
+  width: 20rem;
+}
+.formulary textarea, .formulary input {
+  text-transform: uppercase;
+  font-size: small;
+}
+.formulary #boton {
+  background-color: rgb(185, 119, 22);
+  color: black;
+  border: none;
+}
+.formulary #boton:hover {
+  background-color: rgb(16, 40, 101);
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
