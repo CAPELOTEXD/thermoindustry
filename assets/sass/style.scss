@@ -90,9 +90,39 @@ nav{
     display: block;
     width: 100%;
   }
+  .mySwiper{
+    .body1{
+        position: fixed;
+        bottom: 0px;
+        top: 120px;
+      }
+      .btn-producto{
+        border-radius: 8px;
+        background-color: rgb(205, 125, 21);
+      }
+
+      .btn-producto:hover{
+        background-color: rgb(21, 32, 197);
+      }
+
+  }
+  .mapa{
+    iframe{
+        width:600px; 
+        height:450px; 
+        border:0;
+        border: solid;
+        border-radius: 10px;
+
+         
+    }
+  }
+  
 
   .formulary{
+    
     .formulario{
+        background:linear-gradient(to bottom, rgb(228, 218, 208), rgb(181, 201, 92), rgb(164, 196, 24), rgb(192, 124, 21), rgb(173, 46, 142), rgb(80, 24, 185), rgb(41, 24, 197));
         border: solid;
         border-color: rgb(16, 102, 152);
         border-radius: 35px;
@@ -104,10 +134,13 @@ nav{
     }
     textarea{
         width: 20rem;
+        border-radius: 10px;
     }
     textarea, input {
         text-transform: uppercase;
         font-size: small;
+        background-color: black;
+        color: white;
     }
     #boton{
         background-color: rgb(185, 119, 22);
@@ -123,3 +156,7 @@ nav{
 
   }
   
+  footer{
+    background: black;
+    color: white;
+  }
