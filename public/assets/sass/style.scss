@@ -4,7 +4,6 @@ nav{
         height: 50px;
         flex: initial;
         border: none;
-
     }
 }
 
@@ -14,7 +13,7 @@ nav{
     height: 55px;
     line-height: 55px;
     bottom: 30px;
-    right: 10px;
+    right: 20px;
     background: green;
     color: white;
     border-radius: 50px;
@@ -34,7 +33,7 @@ nav{
     height: 55px;
     line-height: 55px;
     bottom: 100px;
-    right: 10px;
+    right: 20px;
     background: blue;
     color: white;
     border-radius: 50px;
@@ -54,7 +53,7 @@ nav{
     height: 55px;
     line-height: 55px;
     bottom: 170px;
-    right: 10px;
+    right: 20px;
     background: linear-gradient(to bottom, rgb(205, 21, 171), rgb(203, 183, 27), rgb(203,45,65));
     color: white;
     border-radius: 50px;
@@ -82,8 +81,8 @@ nav{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 
   .swiper-slide img {
@@ -94,38 +93,61 @@ nav{
     .body1{
         position: fixed;
         bottom: 0px;
-        top: 120px;
+        top: 5px;
+        background-color: transparent;
+        
+      }
+      .card-title{
+        background: rgba(133, 177, 202, 0.459);
+        border-radius: 8px;
+        position: fixed;        
+        top: 3px;
+        left: 3rem;
       }
       .btn-producto{
-        border-radius: 8px;
+        position: fixed;
+        border-radius: 5px;
         background-color: rgb(205, 125, 21);
+        bottom: 5px;
+        top: 220px;
+        left: 5rem;
       }
 
       .btn-producto:hover{
-        background-color: rgb(21, 32, 197);
+        background-color: rgb(216, 198, 37);
       }
 
   }
   .mapa{
     iframe{
-        width:600px; 
-        height:450px; 
+        width:50rem; 
+        height:500px; 
         border:0;
         border: solid;
         border-radius: 10px;
-
          
     }
+    @media (max-width: 600px) {
+        iframe{
+            width:23rem; 
+            height:350px; 
+            border:0;
+            border: solid;
+            border-radius: 10px;
+             
+        }
+      }
   }
   
 
   .formulary{
     
+    
     .formulario{
-        background:linear-gradient(to bottom, rgb(228, 218, 208), rgb(181, 201, 92), rgb(164, 196, 24), rgb(192, 124, 21), rgb(173, 46, 142), rgb(80, 24, 185), rgb(41, 24, 197));
+        background: rgba(56, 112, 214, 0.966);
         border: solid;
         border-color: rgb(16, 102, 152);
-        border-radius: 35px;
+        border-radius: 25px;
     }
     input{
         border: solid;
@@ -152,8 +174,6 @@ nav{
         background-color: rgb(16, 40, 101);
         color: white;
     }
-
-
   }
   
   footer{
