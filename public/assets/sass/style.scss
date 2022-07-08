@@ -119,12 +119,15 @@ nav{
 
   }
   .mapa{
+    
+    
     iframe{
         width:50rem; 
         height:500px; 
         border:0;
         border: solid;
         border-radius: 10px;
+        
          
     }
     @media (max-width: 600px) {
