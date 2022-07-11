@@ -134,6 +134,9 @@ nav img {
   background-color: rgb(9, 53, 53);
   color: white;
 }
+.mapa .ubicacion {
+  bottom: 30px;
+}
 .mapa iframe {
   width: 50rem;
   height: 500px;

@@ -140,6 +140,10 @@ nav{
   .mapa{
     background-color: rgb(9, 53, 53);  
     color: white; 
+
+    .ubicacion{
+        bottom: 30px;
+    }
     
     iframe{
         width:50rem; 
