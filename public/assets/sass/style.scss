@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 nav{
     img{
         width: 200px;
@@ -67,59 +71,75 @@ nav{
     color: black;
     background: linear-gradient(to bottom, rgb(205, 125, 21), rgb(185, 119, 22), rgb(187, 24, 146));
 }
+.quienes{
+    background-color: rgb(9, 53, 53);
+    color: white;
+
+}
 .nosotros{
+    
     img{
         width: 100%;
+        border-radius: 12px;
     }
 }
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-  .mySwiper{
-    .body1{
-        position: fixed;
-        bottom: 0px;
-        top: 5px;
-        background-color: transparent;
-        
+.productos{
+    background-color: rgb(255, 255, 255);
+    .swiper {
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
       }
-      .card-title{
-        background: rgba(133, 177, 202, 0.459);
-        border-radius: 8px;
-        position: fixed;        
-        top: 3px;
-        left: 3rem;
-      }
-      .btn-producto{
-        position: fixed;
-        border-radius: 5px;
-        background-color: rgb(205, 125, 21);
-        bottom: 5px;
-        top: 220px;
-        left: 5rem;
-      }
-
-      .btn-producto:hover{
-        background-color: rgb(216, 198, 37);
-      }
-
-  }
-  .mapa{
     
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+      }
+    
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      .mySwiper{
+        .body1{
+            position: fixed;
+            bottom: 0px;
+            top: 5px;
+            background-color: transparent;
+            
+          }
+          .card-title{
+            background: rgba(80, 153, 196, 0.459);
+            border-radius: 8px;       
+            position: fixed;
+            bottom: 240px;            
+            width: 100%;
+            right: 0rem;
+
+          }
+          .btn-producto{
+            position: fixed;
+            border-radius: 5px;
+            background-color: rgb(9, 53, 53);
+        color: rgb(255, 255, 255);
+            bottom: 5px;
+            top: 220px;
+            left: 5rem;
+          }
+    
+          .btn-producto:hover{
+            background-color: rgb(216, 198, 37);
+          }
+    
+      }
+}
+
+  .mapa{
+    background-color: rgb(9, 53, 53);  
+    color: white; 
     
     iframe{
         width:50rem; 
@@ -144,21 +164,23 @@ nav{
   
 
   .formulary{
-    
+    background-color: rgb(255, 255, 255);
     
     .formulario{
-        background: rgba(56, 112, 214, 0.966);
+        background: rgba(182, 189, 202, 0.945);
         border: solid;
-        border-color: rgb(16, 102, 152);
+        border-color: rgb(9, 53, 53);
         border-radius: 25px;
+        height: 25rem;
+        width: 50rem;
     }
-    input{
+    button, input{
         border: solid;
         border-radius: 30px;
-        width: 15rem;
+        width: 100%;
     }
     textarea{
-        width: 20rem;
+        width: 100%;
         border-radius: 10px;
     }
     textarea, input {
@@ -168,8 +190,8 @@ nav{
         color: white;
     }
     #boton{
-        background-color: rgb(185, 119, 22);
-        color: black;
+        background-color: rgb(9, 53, 53);
+        color: rgb(255, 255, 255);
         border: none;
     }
 
